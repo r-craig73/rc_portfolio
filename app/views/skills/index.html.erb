@@ -1,1 +1,20 @@
-<h2>Welome to Ron Craig's Portfolio</h2>
+<div class="container">
+  <div class="jumbotron">
+  <h2>Welome to Ron Craig's Portfolio</h2>
+  </div>
+</div>
+
+<% if @skills != nil %>
+  <div class="container">
+  <h3>Here's a list of skills with solid examples... *</h3>
+    <% @skills.each_slice(2) do |skills| %>
+    <div class="row">
+      <% skills.each do |skill| %>
+        <div class="col-md-6"><h4><%= link_to skill.title, skill_path(skill) %></h4></div>
+      <% end %>
+    </div>
+    <% end %>
+  </div>
+<% else %>
+  <h2>No skills to pay the bills...yet</h2>
+<% end %>
