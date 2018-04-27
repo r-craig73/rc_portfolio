@@ -11,14 +11,15 @@
 * Over 18 years of acoustics consumer product testing and verification.  A sound quality whisperer for HP inkjet printers and Microsoft surface tablet/notebook/laptop products.
 * Specializing in troubleshooting & solving problems.
 * Troubleshooting example: Improved an inkjet printer pen servicing noise by determining the major noise sources and mitigating the noise. Mitigating the noise is a collaboration using specialized equipment (binaural head recordings and software to analyze recordings), interaction with the engineer responsible for pen servicing and software to control and modify the servicing events. Sometimes compromises and additional testing are needed to satisfy servicing noise and performance before a certain deadline. Bottom line: sound quality is needed to avoid printer returns (lost revenue) and/or phone calls (phone call costs) due to a printer's sound.
-* Always searching for way to improve processes.
-* Improve processes example:
+* Always searching for way to improve workflow efficiency.
+* Improve processes example: Improving the process to measure and analyze touchpad noise require.  Using software and programming automation and an accelerometer to trigger the event, a user can measure and generate a report for 10 products within one hour instead of four-five hours.
 
 ## Ron's Personal Interests
 * Singing rap, RnB, soul and country karaoke songs (add pictures).
 * Attending sporting events (add Timbers match pictures).
 * Attending live, local concerts and festivals (small to medium size stages, not the stadium size concerts).
 * Enjoy casual bike rides and hikes (add pictures).
+* Dabbling with Python, Arduino and possible projects helping people (website TBD)
 * Halloween (or specific theme) costume wearer (add pictures).
 
 ### Application instructions (assuming Mac OS)
