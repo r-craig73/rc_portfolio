@@ -4,11 +4,27 @@
   </div>
 </div>
 
+
+
+
 <% if @skills.any? %>
-  <h3>Here's a list of skills with solid examples...</h3>
-      <% @skills.each do |skill| %>
-        <h4><%= link_to skill.title, skill_path(skill) %></h4>
-      <% end %>
+<div class="row">
+  <div class="col-md-12">
+  <h3>Here's a list of Ron's skills. Click on the links below to veiw the examples...</h3>
+  </div>
+</div>
+    <% @skills.each do |skill| %>
+  <div class="row">
+    <div class="col-md-8">
+      <div class="thumbnail">
+        <div class="caption">
+          <h3><%= link_to skill.title, skill_path(skill) %></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+    <% end %>
+
 <% else %>
   <h2>No skills to pay the bills...yet!</h2>
 <% end %>
