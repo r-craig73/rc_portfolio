@@ -8,9 +8,23 @@ class SkillsController < ApplicationController
     @skill = Skill.new
   end
 
+  def create
+    @skill = Skill.new(skill_params)
+    if @skill.save
+      flash[:notice] = "Your skill is now added"
+      redirect_to skills_path
+    else
+      render :new
+    end
+  end
+
   def show
     @skill = Skill.find(params[:id])
     render :display
+  end
+
+  def edit
+   @skill = Skill.find(params[:id])
   end
 
   def update
@@ -21,6 +35,18 @@ class SkillsController < ApplicationController
       else
         render :edit
       end
+  end
+
+  def destroy
+    @skill = Skill.find(params[:id])
+    @skill.destroy
+    flash[:notice] = "The skill and details are removed"
+    redirect_to skills_path
+  end
+
+private
+  def skill_params
+    params.require(:skill).permit(:title, :example)
   end
 
 end
