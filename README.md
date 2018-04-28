@@ -27,6 +27,7 @@
 
 #### Learning lessons
 * Bootstrap v3.3: Use thumbnail instead of cards.
+* Devise: Reading Device documentation.
 
 ### Application instructions (assuming Mac OS)
 * If you want to use Postgres for the database and not to install Rail's testing tools, create a file called `.railsrc` in your home directory (using the text editor of your choice) and add the line `-d postgresql -T`
@@ -45,8 +46,10 @@
 
 * Rails server: Run `$ rails server` to start the Rails server.  Navigate to `http://localhost:3000`.  Refresh the page to reload any changes to the source files.
 
+* Authentication setup: Add gem 'devise' to your Gemfile and bundle `$ bundle update`. Run `$ rails generate devise:install` to create additional files. Run `$ rails generate devise user` to create a migration file, model and spec model files and a route for users.  Run migration `$ rake db:migration` to update the database table. Run `$ rails generate devise:views` to automatically add views for registering and signing in. Finally, restart Rails server.
+
 * System dependencies
-* There are so many Ruby gem dependencies. Here's a list of the dependencies used (coming soon).
+* There are soooooo many Ruby gem dependencies. Here's a list of the dependencies used (coming soon).
 
 Copyright (c) 2018 **_RC productions_**
 
