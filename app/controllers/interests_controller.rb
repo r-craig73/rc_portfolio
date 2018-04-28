@@ -1,4 +1,6 @@
 class InterestsController < ApplicationController
+  before_action :authenticate_user!, :except => [:index, :show]
+
   def index
     @interests = Interest.all
     render :index
