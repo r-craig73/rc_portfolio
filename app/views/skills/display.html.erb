@@ -1,0 +1,13 @@
+<br>
+<div class="container">
+  <p>Admin: <%= link_to "Edit Skill", edit_skill_path(@skill) %> | <%= link_to "Delete Skill", skill_path, :data => {
+      :confirm => "You sure?", :method => "delete"
+    } %></p>
+</div>
+<hr>
+
+<div class="container">
+<h3>Skill: <%= @skill.title %></h3>
+
+<h4>Details: <%= @skill.example %></h4>
+</div>

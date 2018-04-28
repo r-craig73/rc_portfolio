@@ -25,6 +25,9 @@
 * Adult Halloween (or specific theme) costume wearer (add pictures).
 * If $$$ was no option: Traveling across USA and hopefully internationally.  Tinkering with Python, Arduino hardware (LED lights), and volunteering/helping people through technology.
 
+#### Learning lessons
+* Bootstrap v3.3: Use thumbnail instead of cards.
+
 ### Application instructions (assuming Mac OS)
 * If you want to use Postgres for the database and not to install Rail's testing tools, create a file called `.railsrc` in your home directory (using the text editor of your choice) and add the line `-d postgresql -T`
 
