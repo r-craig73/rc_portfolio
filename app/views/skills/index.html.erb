@@ -4,17 +4,11 @@
   </div>
 </div>
 
-<% if @skills != nil %>
-  <div class="container">
-  <h3>Here's a list of skills with solid examples... *</h3>
-    <% @skills.each_slice(2) do |skills| %>
-    <div class="row">
-      <% skills.each do |skill| %>
-        <div class="col-md-6"><h4><%= link_to skill.title, skill_path(skill) %></h4></div>
+<% if @skills.any? %>
+  <h3>Here's a list of skills with solid examples...</h3>
+      <% @skills.each do |skill| %>
+        <h4><%= link_to skill.title, skill_path(skill) %></h4>
       <% end %>
-    </div>
-    <% end %>
-  </div>
 <% else %>
-  <h2>No skills to pay the bills...yet</h2>
+  <h2>No skills to pay the bills...yet!</h2>
 <% end %>
