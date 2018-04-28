@@ -1,0 +1,18 @@
+<br>
+<div class="container">
+  <p>Admin: <%= link_to "Edit Interest", edit_interest_path(@interest) %> | <%= link_to "Delete Interest", interest_path, :data => {
+      :confirm => "You sure?", :method => "delete"
+    } %></p>
+</div>
+<hr>
+<h2>Interest Details</h2>
+
+<div class="container">
+<h3><%= @interest.heading %></h3>
+<br>
+<h3 class="details"><%= @interest.body %></h3>
+</div>
+
+<div class="container">
+  <h4><%= link_to "Go Home", skills_path %></h4>
+</div>

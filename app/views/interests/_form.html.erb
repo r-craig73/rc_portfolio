@@ -1,0 +1,24 @@
+<%= render "layouts/errors", :object => @interest %>
+
+<%= form_for @interest do |f| %>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <%= f.label :heading, "Heading"%>
+      <%= f.text_field :heading, size: 35 %>
+    </div>
+    <div class="col-md-6">
+    <%= f.label :body, "Details" %>
+    <%= f.text_area :body, size: "40x10"%>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <%= f.submit "Update or Add Interest" %>
+    </div>
+  </div>
+</div>
+<% end %>
+<hr>
+
+<h4><%= link_to "Go Home", skills_path %></h4>

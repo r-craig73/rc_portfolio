@@ -1,0 +1,28 @@
+<h2>Ron's Personal Interests</h2>
+
+<div class="container">
+<% if @interests.any? %>
+<div class="row">
+  <div class="col-md-12">
+  <h3>Here's a list of Ron's interests. Click on the links below to veiw the details...</h3>
+  <br>
+  </div>
+</div>
+
+<% @interests.each do |interest| %>
+<div class="row">
+  <div class="col-md-12" align="center">
+    <div class="thumbnail">
+      <div class="caption">
+        <h3><%= link_to interest.heading, interest_path(interest) %></h3>
+      </div>
+    </div>
+  </div>
+</div>
+<% end %>
+<% else %>
+  <h2>No intreguing interests...yet!</h2>
+<% end %>
+<h5>Admin: <%= link_to "Add a New interest", new_interest_path %></h5>
+<hr>
+</div>
