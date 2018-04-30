@@ -1,6 +1,10 @@
 class InterestsController < ApplicationController
   before_action :authenticate_user!, :except => [:index, :show]
 
+  before_action :only => [:new, :edit] do
+    redirect_to new_user_session_path unless current_user && current_user.admin
+  end
+
   def index
     @interests = Interest.all
     render :index
@@ -49,7 +53,7 @@ class InterestsController < ApplicationController
 
 private
   def interest_params
-    params.require(:interest).permit(:heading, :body)
+    params.require(:interest).permit(:heading, :body, :user_id)
   end
 
 end
