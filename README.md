@@ -28,9 +28,9 @@
 ## User stories
 - [x] As a user, I would like to log into the site (authentication: email and password), so that I can view the skills and interests.
 - [x] As a user, I want to see my login information at the top of the page with an option to log out.
-- [x] As a user, I want to admin rights to CRUD all comments.
 - [x] As a user, I want to be able to cancel my account.
 - [ ] As a user, I want to add comments to skills and interests.
+- [ ] As a user, I want to Create, Read, Update, Delete and List functionality (CRUD-L) to my comments.
 - [x] As an administrator, I want to deny non-users to Create, Update and Delete skills and interests.
 - [x] As an administrator, I want to Create, Read, Update, Delete and List functionality (CRUD-L) to all skills.
 - [x] As an administrator, I want to Create, Read, Update, Delete and List functionality (CRUD-L) to all interests.
