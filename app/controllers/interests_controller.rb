@@ -7,7 +7,6 @@ class InterestsController < ApplicationController
 
   def index
     @interests = Interest.all
-    render :index
   end
 
   def new

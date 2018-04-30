@@ -601,6 +601,7 @@
         null,
         null,
         1,
+        1,
         null,
         null
       ],
@@ -650,7 +651,6 @@
         null,
         null,
         1,
-        0,
         0,
         null,
         null,
@@ -711,7 +711,6 @@
         null,
         null,
         1,
-        0,
         0,
         null,
         null,
@@ -798,11 +797,13 @@
       "/Users/ronc/Desktop/rails/rc_portfolio/spec/models/user_spec.rb": [
         1,
         null,
-        null,
+        1,
+        2,
+        2,
         null,
         null
       ]
     },
-    "timestamp": 1525061393
+    "timestamp": 1525063208
   }
 }
