@@ -12,8 +12,9 @@ class InterestsController < ApplicationController
 
   def create
     @interest = Interest.new(interest_params)
+    @interest.user_id = current_user.id
     if @interest.save
-      flash[:notice] = "Your interest is now added"
+      flash[:notice] = "Interest is now added"
       redirect_to interests_path
     else
       render :new
@@ -32,7 +33,7 @@ class InterestsController < ApplicationController
   def update
     @interest = Interest.find(params[:id])
       if @interest.update(interest_params)
-        flash[:notice] = "The interest is updated"
+        flash[:notice] = "Interest is updated"
         redirect_to interests_path
       else
         render :edit
@@ -42,7 +43,7 @@ class InterestsController < ApplicationController
   def destroy
     @interest = Interest.find(params[:id])
     @interest.destroy
-    flash[:notice] = "The interest and details are removed"
+    flash[:notice] = "Interest and interest's details are removed"
     redirect_to interests_path
   end
 

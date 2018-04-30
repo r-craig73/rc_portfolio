@@ -15,14 +15,19 @@ interest_body = ["Singing rap, RnB, soul and country karaoke songs.", "Listening
 # User.create!(email: "ron.craig@comcast.net", admin: true, password: "epicodus", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 1)
 # , current_sign_in_at: "2018-03-31 22:27:09", last_sign_in_at: "2018-03-31 22:27:09", current_sign_in_ip: "127.0.0.1", last_sign_in_ip: "127.0.0.1")
 
-skill_titles.length.times do |i|
-  Skill.create!(title: skill_titles[i], example: skill_examples[i])
-  @skill_id = Skill.last.id
-end
+1.times do |i|
+User.create!(email: "ron.craig@comcast.net", admin: true, password: "epicodus", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 1)
+@user_id = User.last.id
+  skill_titles.length.times do |i|
+    Skill.create!(user_id: @user_id, title: skill_titles[i], example: skill_examples[i])
+    @skill_id = Skill.last.id
+  end
 
-interest_heading.length.times do |i|
-  Interest.create!(heading: interest_heading[i], body: interest_body[i])
-  @interest_id = Interest.last.id
+  interest_heading.length.times do |i|
+    Interest.create!(user_id: @user_id, heading: interest_heading[i], body: interest_body[i])
+    @interest_id = Interest.last.id
+  end
+
 end
 
 p "Created #{Skill.count} skills"
