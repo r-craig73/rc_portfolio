@@ -25,10 +25,24 @@
 * Adult Halloween (or specific theme) costume wearer (add pictures).
 * If $$$ was no option: Traveling across USA and hopefully internationally.  Tinkering with Python, Arduino hardware (LED lights), and volunteering/helping people through technology.
 
+## User stories
+- [x] As a user, I would like to log into the site (authentication: email and password), so that I can view the skills and interests.
+- [x] As a user, I want to see my login information at the top of the page with an option to log out.
+- [x] As a user, I want to admin rights to CRUD all comments.
+- [x] As a user, I want to be able to cancel my account.
+- [ ] As a user, I want to add comments to skills and interests.
+- [x] As an administrator, I want to deny non-users to Create, Update and Delete skills and interests.
+- [x] As an administrator, I want to Create, Read, Update, Delete and List functionality (CRUD-L) to all skills.
+- [x] As an administrator, I want to Create, Read, Update, Delete and List functionality (CRUD-L) to all interests.
+- [ ] As an administrator, I want to Create, Read, Update, Delete and List functionality (CRUD-L) to all comments.
+- [ ] As an administrator, I want to be able to delete users, if necessary.
+- [ ] As an administrator, I want to be able to make other users administrators.
+- [ ] As an administrator, I want to add scopes to add interesting photos, comments, etc.
+
 #### Learning lessons
 * Bootstrap v3.3: Use thumbnail instead of cards.
-* Devise: Reading Device documentation.
-* More Devise: 'User must exist' issue!
+* Devise: Reading Devise documentation.
+* More Devise: 'User must exist' issue! (add user_id column to connect one-to-many relationships between user and skills/interests).
 
 ### Application instructions (assuming Mac OS)
 * If you want to use Postgres for the database and not to install Rail's testing tools, create a file called `.railsrc` in your home directory (using the text editor of your choice) and add the line `-d postgresql -T`
