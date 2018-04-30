@@ -1,12 +1,25 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/ronc/Desktop/rails/rc_portfolio/spec/models/interest_spec.rb": [
+      "/Users/ronc/Desktop/rails/rc_portfolio/spec/controllers/add_new_interest_spec.rb": [
         1,
         null,
         1,
-        2,
-        2,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/ronc/Desktop/rails/rc_portfolio/spec/rails_helper.rb": [
@@ -620,8 +633,8 @@
         1,
         null,
         1,
-        0,
-        0,
+        1,
+        1,
         null,
         null,
         null
@@ -786,6 +799,26 @@
         1,
         null
       ],
+      "/Users/ronc/Desktop/rails/rc_portfolio/spec/features/add_interest_error_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/ronc/Desktop/rails/rc_portfolio/spec/models/interest_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        null
+      ],
       "/Users/ronc/Desktop/rails/rc_portfolio/spec/models/skill_spec.rb": [
         1,
         null,
@@ -804,6 +837,6 @@
         null
       ]
     },
-    "timestamp": 1525063208
+    "timestamp": 1525075691
   }
 }
