@@ -1,11 +1,16 @@
-<br>
-<div class="container">
-  <p>Admin: <%= link_to "Edit Skill", edit_skill_path(@skill) %> | <%= link_to "Delete Skill", skill_path, :data => {
-      :confirm => "You sure?", :method => "delete"
-    } %></p>
-</div>
+
+<% if current_user && current_user.admin %>
+  <div class="container">
+    <p>Admin: <%= link_to "Edit Skill", edit_skill_path(@skill) %> | <%= link_to "Delete Skill", skill_path, :data => {
+        :confirm => "You sure?", :method => "delete"
+      } %></p>
+  </div>
+<% end %>
+
 <hr>
-<h2>Skill Details</h2>
+<div class="container">
+  <h2>Skill Details</h2>
+</div>
 
 <div class="container">
 <h3><%= @skill.title %></h3>

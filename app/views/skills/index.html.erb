@@ -27,8 +27,11 @@
 <% else %>
   <h2>No skills to pay the bills...yet!</h2>
 <% end %>
-<h5>Admin: <%= link_to "Add a New Skill", new_skill_path %></h5>
-<hr>
+
+<% if current_user && current_user.admin %>
+  <h5>Admin: <%= link_to "Add a New Skill", new_skill_path %></h5>
+<% end %>
+  <hr>
 </div>
 
 <div class="container">

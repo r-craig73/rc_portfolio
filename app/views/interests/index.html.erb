@@ -27,7 +27,10 @@
 <% else %>
   <h2>No intriguing interests...yet!</h2>
 <% end %>
+
+<% if current_user && current_user.admin %>
 <h5>Admin: <%= link_to "Add a New interest", new_interest_path %></h5>
+<% end %>
 <hr>
 </div>
 
