@@ -17,13 +17,13 @@
 * Improve workflow example #2: To avoid remembering how to perform the same test for technicians and colleagues, an 'Acoustics Lab Procedures' handbook was generated saving 5-10% in workflow.
 
 ## Ron's Interests
-* Singing rap, RnB, soul and country karaoke songs (add pictures).
-* Listening to different genres of music (rap, RnB, soul, jazz, classic rock, country, blues, anything good, etc.).
-* Attending sporting events (add Timbers match pictures).  Support Portland and Philadelphia local sports (soccer, basketball and football).
-* Attending live, local concerts and festivals (small to medium size stages, not the stadium size concerts).
-* Enjoy casual bike rides and hikes (add pictures).
-* Adult Halloween (or specific theme) costume wearer (add pictures).
-* If $$$ was no option: Traveling across USA and hopefully internationally.  Tinkering with Python, Arduino hardware (LED lights), and volunteering/helping people through technology.
+* Singing Karaoke: Singing rap, RnB, soul and country karaoke songs (add pictures).
+* Passionate about music: Listening to different genres of music (rap, RnB, soul, jazz, classic rock, country, blues, anything good, etc.).
+* Attending live sporting events: Attending sporting events (add Timbers match pictures). Supporting Portland and Philadelphia professional and college sports (soccer, basketball and football).
+* Attending live concerts: Attending live concerts and festivals (small to medium size shows, not the stadium size concerts).
+* Bike rides and hikes: Enjoying casual bike rides and hikes (add pictures).
+* Wearing costumes: Adult Halloween (or specific theme) costume wearer (add pictures).
+* If money and time were limitless...: I would consider traveling across the USA and globe-trekking (hopefully). Tinkering with Python, Arduino hardware (LED lights & other sensors) and volunteering/helping people through technology.
 
 ## User stories
 - [x] As a user, I would like to log into the site (authentication: email and password), so that I can view the skills and interests.
