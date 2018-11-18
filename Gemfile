@@ -31,6 +31,9 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
+# Use Rack for a minimal, modular and adaptable interface for developing web applications in Ruby
+gem 'rack', '>= 2.0.6'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
