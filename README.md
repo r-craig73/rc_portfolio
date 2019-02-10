@@ -30,11 +30,11 @@
 - [x] As a user, I want to see my login information at the top of the page with an option to log out.
 - [x] As a user, I want to be able to cancel my account.
 - [ ] As a user, I want to add comments to skills and interests.
-- [ ] As a user, I want to Create, Read, Update, Delete and List functionality (CRUD-L) to my comments.
+- [ ] As a user, I want to CRUD-L functionality to my comments.
 - [x] As an administrator, I want to deny non-users to Create, Update and Delete skills and interests.
-- [x] As an administrator, I want to Create, Read, Update, Delete and List functionality (CRUD-L) to all skills.
-- [x] As an administrator, I want to Create, Read, Update, Delete and List functionality (CRUD-L) to all interests.
-- [ ] As an administrator, I want to Create, Read, Update, Delete and List functionality (CRUD-L) to all comments.
+- [x] As an administrator, I want to CRUD-L functionality to all skills.
+- [x] As an administrator, I want to CRUD-L functionality to all interests.
+- [ ] As an administrator, I want to CRUD-L functionality to all comments.
 - [ ] As an administrator, I want to be able to delete users, if necessary.
 - [ ] As an administrator, I want to be able to make other users administrators.
 - [ ] As an administrator, I want to add scopes to add interesting photos, comments, etc.
@@ -51,7 +51,7 @@
 
 * Run `$ gem install rails`
 
-* Verify that you are using ruby-2.4.1 in your terminal(s).
+* Verify that you are using ruby-2.5.1 in your terminal(s).
 
 * Run `$ bundle install` to install Ruby gems packages related to the Gemfile in the top level.
 
@@ -66,7 +66,7 @@
 * System dependencies
 * There are soooooo many Ruby gem dependencies. Here's a list of the dependencies used (coming soon).
 
-Copyright (c) 2018 **_RC productions_**
+Copyright (c) 2018-2019 **_RC productions_**
 
 MIT License
 -----------
