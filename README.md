@@ -40,7 +40,7 @@
 - [ ] As an administrator, I want to add scopes to add interesting photos, comments, etc.
 
 #### Learning lessons
-* Bootstrap v4.3.x: Use thumbnail instead of cards.
+* Bootstrap-sass v3.4.x: Use thumbnail instead of cards.
 * Devise: Reading Devise documentation.
 * More Devise: 'User must exist' issue! (add user_id column to connect one-to-many relationships between user and skills/interests).
 
