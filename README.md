@@ -40,7 +40,7 @@
 - [ ] As an administrator, I want to add scopes to add interesting photos, comments, etc.
 
 #### Learning lessons
-* Bootstrap v3.3: Use thumbnail instead of cards.
+* Bootstrap v4.3.x: Use thumbnail instead of cards.
 * Devise: Reading Devise documentation.
 * More Devise: 'User must exist' issue! (add user_id column to connect one-to-many relationships between user and skills/interests).
 
@@ -63,8 +63,7 @@
 
 * Authentication setup: Add gem 'devise' to your Gemfile and bundle `$ bundle update`. Run `$ rails generate devise:install` to create additional files. Run `$ rails generate devise user` to create a migration file, model and spec model files and a route for users.  Run migration `$ rake db:migration` to update the database table. Run `$ rails generate devise:views` to automatically add views for registering and signing in. Finally, restart Rails server.
 
-* System dependencies
-* There are soooooo many Ruby gem dependencies. Here's a list of the dependencies used (coming soon).
+* System dependencies: There are soooooo many Ruby gem dependencies. List of the dependencies coming soon.
 
 Copyright (c) 2019 **_RC productions_**
 
